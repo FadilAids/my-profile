@@ -1,0 +1,122 @@
+/* Colors and Fonts*/
+
+body {
+	background-color: #F7F9FC;
+	color:#32313D;
+	font-family: raleway;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1 {
+	font-family: ubuntu;
+	font-weight: 900;
+	letter-spacing: 4px;
+	font-size: 32px;
+	color: #32313D;
+}
+
+h2 {
+	font-family: raleway;
+	color: #2C96C7;
+	font-weight: 200;
+}
+
+a {
+	text-decoration: none;
+	color: #EF5466;
+	font-family: ubuntu;
+}
+
+a:hover {
+	background-color: white;
+	color:#EF5466;
+}
+
+/* Custom design with id*/
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#introduction-question {
+	margin-top: 50px;
+	font-weight: 600;
+	color: #32313D;
+	border-top: solid;
+	border-top-color: #32313D;
+	padding-top: 30px;
+}
+
+#btn-essec a {
+	background-color: white;
+	color:#2C96C7;
+	padding: 10px 15px;
+	border-radius: 50px;
+	border-style: solid;
+}
+
+#btn-essec a:hover {
+	background-color: #2C96C7;
+	color:white;
+}
+
+#title-red {
+	color: #EF5466;
+}
+
+/*Custom design with classes*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+		background: white;
+		padding: 50px;
+		margin: 40px 0px;
+		box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+		border-radius: 5px;
+		alignment-baseline: central;
+		text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-pink {
+	background-color:#EF5466;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 50px;
+	border-style: solid
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding:25px;
+}
+
+.list-inline i {
+	font-size: 30px;
+	color: rgb(220,220,220);
+}
+
+.list-inline i:hover {
+	color:rgb(80,80,80);
+}
+
+@media(max-width: 760px) {
+	.container {
+		width: 450px;
+	}
+	.list-inline {
+		font-size: 8.28px;
+	}
+
